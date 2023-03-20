@@ -127,8 +127,10 @@ max-width: 400px;
 .boxes h2 {
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
+    
 }
 .box img {
     max-width: 200px;
@@ -137,26 +139,36 @@ max-width: 400px;
     
 }
 
-.text-boxes {
 
+.boxes .conti {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 50px;
+
+    
+    
 }
 
-
-.boxes .container {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-
-
+.boxes {  
+ margin-left: 200px;
+ margin-right: 200px;
+ text-align: center;  
+ margin-bottom: 125px;
 }
 
-.box {
-   background-color: #1F2937;
-  align-items: center;
-   
+.quote {
+    background-color: #E5E7EB;
+    margin-bottom: 125px;
+  
 }
-
-
+.quote h3 {
+    font-style: italic;
+    font-weight: lighter;
+    font size: 36px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
 .footer {
     text-align: center;
 }
