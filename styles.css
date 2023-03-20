@@ -159,15 +159,22 @@ gap: 50px;
 
 .quote {
     background-color: #E5E7EB;
-    margin-bottom: 125px;
+    height: 425px;
+    
+    
   
 }
 .quote h3 {
     font-style: italic;
     font-weight: lighter;
-    font size: 36px;
+    font size: 70;
     margin-left: 200px;
     margin-right: 200px;
+    
+    
+
+
+    
 }
 .footer {
     text-align: center;
