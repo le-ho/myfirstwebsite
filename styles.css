@@ -7,7 +7,7 @@
 }
 
 .body {
-    font-family: 'Roboto', sans-serif;
+    
     max-width: 750px;
     
 }
@@ -150,20 +150,64 @@ gap: 50px;
 .quote {
     background-color: #E5E7EB;
     height: 425px;
-    font size: 36px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
     
 }
 
-.quote-text p{
+.quote-text {
     font-style: italic;
     font-weight: lighter;
     margin-left: 200px;
     margin-right: 200px;
-    
-    
+    font-size: 36px;
     
 }
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.contix {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call {
+    height: 125px;
+    width: 1050px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+}
+
+.contix .call {
+    display: flex;
+    justify-content: space-between;
+}
+.call-text {
+    font-weight: bolder;
+    font-size: 28px;
+}
+.contix .button {
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9faf8;
+    text-align: center;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    border: solid;
+}
+
 .footer {
     text-align: center;
 }
