@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 
 * {
     
@@ -75,7 +75,9 @@ ul {
 }
 
 .header img {
-    max-width: 400px;
+    max-height: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
    
 }
 
@@ -84,11 +86,12 @@ ul {
     font-weight: bolder;
     color: #F9faf8;
     max-width: 330px;
-   
+   margin-top: 50px;
 }
 
 .header p {
 max-width: 400px;
+min-width: 400px;
 
 }
 
@@ -97,7 +100,7 @@ max-width: 400px;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-
+    margin-bottom: 100px;
 }
 
 .button {
