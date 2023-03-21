@@ -4,6 +4,7 @@
     
     margin: 0;
     padding: 0;
+   
 }
 
 .body {
@@ -186,6 +187,12 @@ gap: 50px;
     border-radius: 8px;
     background-color: #3882f6;
     color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 200px;
+    
+  
 }
 
 .contix .call {
@@ -194,7 +201,13 @@ gap: 50px;
 }
 .call-text {
     font-weight: bolder;
-    font-size: 28px;
+    font-size: 26px;
+}
+.call-text-box {
+    max-width: 500px;
+    margin-right: 200px;
+    flex-shrink: 1;
+
 }
 .contix .button {
     background-color: #3882f6;
@@ -208,6 +221,13 @@ gap: 50px;
     border: solid;
 }
 
+
 .footer {
     text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
