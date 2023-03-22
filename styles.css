@@ -12,14 +12,12 @@ body {
     font-family: roboto, sans-serif;
 }
 
+/*navbar section styling*/
+
 .container {
     max-width: 1700px;
     padding: 0 200px;
-    
-    
 }
-
-
 
 .navbar {
     background-color: #1F2937 ;
@@ -27,9 +25,6 @@ body {
     color: #e5e7eb;
     font-style: none;
     height: 60px;
-    
-    
-
 }
 
 ul {
@@ -39,7 +34,6 @@ ul {
 .right-menu a {
     text-decoration: none;
     color: #e5e7eb;
-    
 }
 
 .navbar .logo {
@@ -54,17 +48,13 @@ ul {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    
 }
-
-
 .navbar ul {
     display: flex;
     gap: 25px;
-    
 }
 
-
+/*header and button section styling*/
 
 .header {
     background-color: #1F2937;
@@ -125,6 +115,8 @@ min-width: 400px;
     margin-bottom: 10px;
 }
 
+/*boxes section styling*/
+
 .boxes h2 {
     font-size: 36px;
     font-weight: bolder;
@@ -138,7 +130,6 @@ min-width: 400px;
     max-width: 200px;
     
 }
-
 
 .boxes .conti {
 display: flex;
@@ -160,6 +151,9 @@ flex-wrap: wrap;
 .box {
     max-width: 200px;
 }
+
+/*quote section styling*/
+
 .quote {
     background-color: #E5E7EB;
     height: 425px;
@@ -167,8 +161,6 @@ flex-wrap: wrap;
     justify-content: center;
     align-items: center;
    
-    
-    
 }
 
 .quote-text {
@@ -188,6 +180,7 @@ flex-wrap: wrap;
     font-weight: bold;
 }
 
+/*call to action section call is a banner with textbox and button inside contix is container*/
 .contix {
     margin-left: 200px;
     margin-right: 200px;
@@ -203,12 +196,7 @@ flex-wrap: wrap;
     color: #E5E7EB;
     margin: 100px 200px;
    
-    
-    
-  
 }
-
-
 
 .call-text {
     font-weight: bolder;
@@ -234,6 +222,7 @@ flex-wrap: wrap;
     border: solid;
 }
 
+/*footer section styling*/
 
 .footer {
     text-align: center;
