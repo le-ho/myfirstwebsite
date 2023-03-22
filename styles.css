@@ -195,24 +195,21 @@ flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
+
 .call {
-    height: 125px;
-    width: 1050px;
+    
     border-radius: 8px;
     background-color: #3882f6;
     color: #E5E7EB;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin: 100px 200px;
+   
+    
     
   
 }
 
-.contix .call {
-    display: flex;
-    justify-content: space-between;
-}
+
+
 .call-text {
     font-weight: bolder;
     font-size: 26px;
@@ -220,7 +217,9 @@ flex-wrap: wrap;
 .call-text-box {
     max-width: 500px;
     margin-right: 200px;
-    
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
 
 }
 .contix .button {
@@ -229,8 +228,8 @@ flex-wrap: wrap;
     font-weight: bold;
     color: #F9faf8;
     text-align: center;
-    width: 130px;
-    height: 40px;
+    min-width: 130px;
+    min-height: 40px;
     border-radius: 8px;
     border: solid;
 }
